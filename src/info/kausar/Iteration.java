@@ -31,6 +31,7 @@ public class Iteration {
       // * * * *
       // * * * *
 
+      //nested loop
       for (int k = 1; k<=4; k++) {
           for(int x =1; x<=4 ; x ++) {
               System.out.print("*");
