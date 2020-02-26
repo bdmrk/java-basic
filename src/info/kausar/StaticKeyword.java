@@ -24,7 +24,7 @@ class Emp {
     }
 }
 
-public class Static {
+public class StaticKeyword {
     public static void main(String[] args) {
 
         Emp hasan = new Emp();
