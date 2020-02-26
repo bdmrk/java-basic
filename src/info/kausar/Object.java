@@ -9,10 +9,8 @@ class Calc{
         result = num1 + num2;
     }
     //object do something in method
-
-
-
 }
+
 public class Object {
     public static void main(String[] args) {
 //        Calc obj; //this is reference

@@ -9,14 +9,18 @@ Inheritance
 Polymorphism
 Abstraction
 Encapsulation
+###################
 Apart from these concepts, there are some other terms which are used in Object-Oriented design:
-
 Coupling
 Cohesion
 Association
 Aggregation
 Composition
 
+
+
+#################
 class = Blueprint/ Structure
 object = Knows something and do something
 method
+
