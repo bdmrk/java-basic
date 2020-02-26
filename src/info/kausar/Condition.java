@@ -5,7 +5,7 @@ public class Condition {
         int num = 6;
         int z = 0;
 
-//if else statement
+        //if else statement
         if (num >= 6) {
             z = 10;
         } else if (num < 6) {
