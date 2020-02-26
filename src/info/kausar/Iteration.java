@@ -1,6 +1,8 @@
 package info.kausar;
 
 public class Iteration {
+
+    //repeating your code is a crime, don't repeat yourself
     //while , do while , for , for-each(enhance of for loop, especial loop made for array)
 
   public static void main( String[] args) {
