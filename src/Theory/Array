@@ -1,0 +1,10 @@
+info.kausar.Array-> i)Single Dimensional info.kausar.Array
+           String a[]={"apple", "orange", "banana"}
+
+        ii)Multidimensional info.kausar.Array / two dimensional array
+        String a[] []=
+        {
+        {"apple", "orange", "banana"}, {"Date", "Lemon", "Grape" }, {"Mango", "watermelon", "Jack Fruit"}
+        }
+
+#if array doesn't have space it called array index out of bound error
