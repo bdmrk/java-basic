@@ -23,7 +23,7 @@ public class Array {
                 {7,8,9},
                 {10,11,12},
         };
-        System.out.println("First row third element = " + d[0][2]);
+        System.out.println("First row third element = " + d[0][2]); //to print specific element
 
         //for print array in array / 2d array
 
