@@ -12,6 +12,8 @@ package info.kausar;
 // support multiple implements
 // slow
 // can't create object of interface only references
+// interface doesn't have any constructor
+
 
 //abstract class Writer {
 //    abstract public void write();
