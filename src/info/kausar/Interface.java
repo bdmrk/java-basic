@@ -13,6 +13,7 @@ package info.kausar;
 // slow
 // can't create object of interface only references
 // interface doesn't have any constructor
+//use Interface only for multiple implementation
 
 
 //abstract class Writer {
