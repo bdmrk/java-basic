@@ -1,6 +1,6 @@
 package info.kausar;
 //normal interface => has multiple methods
-// single abstract method / SAM Interface / Functional Interface = only one method
+// single abstract method / SAM Interface / Functional Interface = only one abstract method
 // Marker interface = No method
 
 /*
