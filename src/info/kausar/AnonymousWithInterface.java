@@ -7,7 +7,7 @@ public class AnonymousWithInterface{
         Abc obj = new Abc() {
             //interface with anonymous class
             //it'll not cost memory
-            //can't reuse this defination
+            //can't reuse this definition
             //only for this class
             @Override
             public void show() {
