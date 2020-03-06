@@ -9,10 +9,11 @@ interface Demo {
     default void showMe() {
         System.out.println("define method");
     }
+
 }
 
-class DemoImp implements Demo {
 
+class DemoImp implements Demo {
 
     @Override
     public void show() {
