@@ -1,4 +1,4 @@
-package info.kausar.oops.inheritance;
+package info.kausar.oops.polymorphism;
 
 class One{
 public void show() {
