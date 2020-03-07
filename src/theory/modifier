@@ -1,0 +1,9 @@
+final
+Abstract
+private
+public
+protected
+
+*** you can use final, abstract and public
+*** private and protected is only with inner class
+*** if you don't declare any modifier it will be treated as default modifier
