@@ -1,0 +1,21 @@
+Thread is a unit of Process/ Task
+By default every java code has a thread that is main
+Thread is and inbuilt class in java
+
+Thread is responsible to convert the array
+
+Thread => single task multiple resource
+*** everything is happening ata the same time in a game is multi threading
+
+Use:
+
+1. Using Complete power of CPU
+2. Async task / request in android
+3. we can access web application
+
+start();
+run();
+sleep(2000); // static method of Thread
+wait();
+notify()
+
