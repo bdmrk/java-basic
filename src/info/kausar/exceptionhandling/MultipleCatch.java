@@ -11,7 +11,10 @@ public class MultipleCatch {
             System.out.println(k);
         } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
             System.err.println(e);
-            System.out.println("if there is any error in try block it prints here");
+            System.err.println("if there is any error in try block it prints here");
+        }catch (Exception e) {
+            //Exception class handle every exception
+            System.err.println(e);
         }
 
         finally {
