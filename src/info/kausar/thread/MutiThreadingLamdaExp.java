@@ -10,8 +10,7 @@ public class MutiThreadingLamdaExp {
                 System.out.println("hi");
                 try {
                     Thread.sleep(1000);
-                } catch (Exception e) {
-                }
+                } catch (Exception e) {};
             }
         });
         Thread t2 = new Thread(() ->
@@ -20,8 +19,7 @@ public class MutiThreadingLamdaExp {
                 System.out.println("Hello");
                 try {
                     Thread.sleep(1000);
-                } catch (Exception e) {
-                }
+                } catch (Exception e){};
             }
         });
 
