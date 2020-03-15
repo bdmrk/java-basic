@@ -1,4 +1,4 @@
-package info.kausar.multithreading;
+package info.kausar.thread;
 
 //every time you extend Thread your class become thread
 //whenever you extends Thread, it's you responsibility to override run method

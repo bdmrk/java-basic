@@ -1,4 +1,4 @@
-package info.kausar.multithreading;
+package info.kausar.thread;
 
 class Hi2 implements Runnable {
 
