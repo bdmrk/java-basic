@@ -1,4 +1,4 @@
-package info.kausar.modifier;
+package info.kausar.access_modifier;
 
 import com.kausar.modifier.Student;
 

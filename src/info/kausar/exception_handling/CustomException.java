@@ -1,4 +1,4 @@
-package info.kausar.exceptionhandling;
+package info.kausar.exception_handling;
 
 public class CustomException extends Exception {
     public CustomException(String message) {

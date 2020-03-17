@@ -1,7 +1,7 @@
 package info.kausar.oops.abstraction;
 // why need abstract class =>
 // we don't need anyone to create object of abstract class
-// instead of creating multiple method e can create single method by using Supper class references for every result
+// instead of creating multiple method we can create single method by using Supper class references for every result
 
 abstract class Human //when you create an abstract class you cant't create an object of it
 {

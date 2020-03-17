@@ -1,0 +1,12 @@
+// x = 5;
+if you can't change this value of object that is immutability
+and if you can that is mutability.
+if software maximum value is mutable
+
+*** mutation is important and multi thread is important
+
+synchronized key work make thread safety,
+ConcurrentHashMap;
+AtomicInteger
+StringBuffer
+

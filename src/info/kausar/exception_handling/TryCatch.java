@@ -1,4 +1,4 @@
-package info.kausar.exceptionhandling;
+package info.kausar.exception_handling;
 public class TryCatch {
     public static void main(String[] args) {
         try {
