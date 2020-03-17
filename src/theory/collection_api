@@ -1,0 +1,28 @@
+collection -> A Concept
+Collection -> Interface
+Collections -> Class
+
+
+***ArrayList is a Collections which Implement Collection Indirectly
+ArrayList implements List
+List implements Collection
+***ArrayList->List->Collection
+Array is Faster than Collection
+if Size is fixed go for Array and not fixed go for Collection
+
+*** Collection doesn't work with index number;
+*** List Works with index number . List can have duplicate value
+*** Set doesn't have duplicate value. Every Element of Set will be unique (HashSet(), TreeSet())
+*** Advantage of TreeSet() gives sorted data
+
+()-> function
+{} -> method definition
+[] -> array
+<> -> generic (Type) . generic is supported from 1.7 and above
+
+
+====================Map============
+Map<key ,value>
+*** Map is also an interface
+Map<Integer , String> map = new HashMap<>();
+
