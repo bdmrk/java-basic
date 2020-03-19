@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class GenericDemo2 {
+public class GenericAndComparator {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(404);
@@ -28,10 +28,14 @@ public class GenericDemo2 {
 
 //        all these upper code can be written by using lambda expression
 
-        Comparator<Integer> comparator = (i, j) -> i % 10 > j % 10 ? 1 : -1; // sorting logic overriding
+ //       Comparator<Integer> comparator = (i, j) -> i % 10 > j % 10 ? 1 : -1; // sorting logic overriding
+
+  //      Collections.sort(list, comparator); // sort base on last number
 
 
-        Collections.sort(list, comparator); // sort base on last number
+//        upper code can be shorter
+
+        Collections.sort(list,(i, j) -> i % 10 > j % 10 ? 1 : -1 ); // this is the beauty of java
 
         for (Integer l : list) {
             System.out.println(l);
