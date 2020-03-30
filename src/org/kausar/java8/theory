@@ -1,0 +1,19 @@
+*** Java 8 we got something very very new in java => Functional Programming.
+*** Functional Programming is not new for programming world but for java .
+***it was in Scala, Haskell in fact in C#.
+***it was there in all the language that work in cloud.
+
+Four important feature in Java 8 .
+1. we can define method in interface
+2. Functional Programming
+3. Lambda Expression
+4. Stream Api
+
+***oop there from 80's. 80's to till now the main thing is object. but now the main things is not object. its function
+*** instead of focusing on object , now we focus on the behavior of object
+
+*** functional programming, lambda expression and stream API
+1 define methods other than declare methods
+2 functional programming: imperative programming vs declarative programming
+3 lambda expression
+4 stream API: achieve concurrency
