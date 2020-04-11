@@ -14,6 +14,8 @@ Four important feature in Java 8 .
 
 *** functional programming, lambda expression and stream API
 1 define methods other than declare methods
-2 functional programming: imperative programming vs declarative programming
+2 functional programming:
+i) imperative programming-> focus on what to it and how to do it
+ii) declarative programming -> focus on what to do it
 3 lambda expression
 4 stream API: achieve concurrency
