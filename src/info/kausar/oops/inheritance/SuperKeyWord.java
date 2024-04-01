@@ -24,8 +24,8 @@ class B  extends A{
 public class SuperKeyWord {
     public static void main(String[] args) {
 //        A objectA = new A();
-       // B objectB = new B(); //when you create sub class object it calls its own and supper class constructor
-        B objectB = new B(6); //whatever constructor you call in sub class it will call default constructor of super class B by default
+       // B objectB = new B(); //when you create sub-class object it calls its own and supper class constructor
+        B objectB = new B(6); //whatever constructor you call in sub-class it will call default constructor of super class B by default
         System.out.println(objectB);
 //        System.out.println(objectA);
 

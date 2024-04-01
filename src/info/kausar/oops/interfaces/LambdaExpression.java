@@ -13,7 +13,7 @@ void show();
 }
 public class LambdaExpression {
     public static void main(String[] args) {
-//most people dont'like java as it has lot's of boilerplate code / boilerplate.
+//most people don't like java as it has lots of boilerplate code / boilerplate.
 
         //as Sam interface has only one method we can use show method in this way.
         Sam obj = () ->System.out.println("this is lambda expression"); // lamda expression

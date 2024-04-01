@@ -3,7 +3,7 @@ package info.kausar.oops.interfaces;
 // abstract class is extended
 // can define method
 // doesn't support multiple inheritance
-//fast
+// fast
 
 //Interface Class =>
 // interface is implemented
@@ -13,7 +13,7 @@ package info.kausar.oops.interfaces;
 // slow
 // can't create object of interface only references
 // interface doesn't have any constructor
-//use Interface only for multiple implementation
+// use Interface only for multiple implementation
 
 
 //abstract class Writer {
@@ -41,15 +41,14 @@ class Pencil implements Writer {
 class Kit {
     public void doSomething(Writer p) {
         p.write();
-
     }
 }
 
 public class Interface {
     public static void main(String[] args) {
-        Kit k = new Kit();
+;        Kit k = new Kit();
         Pen p = new Pen();
         Pencil pc = new Pencil();
-        k.doSomething(pc);
+        k.doSomething(p);
     }
 }
