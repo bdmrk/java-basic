@@ -2,7 +2,7 @@ package info.kausar.oops.interfaces;
 
 //Java 1.8 there is static method in interface
 //By default if variable inside the interface became constant
-//abstract method method, default method and static method
+//abstract method, default method and static method
 
 interface StaticAbc {
     int num = 100;
