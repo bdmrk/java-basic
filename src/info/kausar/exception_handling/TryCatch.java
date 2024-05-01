@@ -10,7 +10,7 @@ public class TryCatch {
             System.out.println("if there is any error in try block it prints here");
         }
         finally {
-            System.out.println("It prints every time");
+            System.out.println("It prints every time"); // whether there is error or not
         }
     }
 }
