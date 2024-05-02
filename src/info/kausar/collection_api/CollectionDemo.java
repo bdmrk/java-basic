@@ -4,29 +4,68 @@ package info.kausar.collection_api;
 
 // ctrl + shift + o = to import the package we need!
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import info.kausar.oops.Object;
+
+import java.util.*;
 
 public class CollectionDemo {
 
     public static void main(String[] args) {
-        Collection<Integer> values = new ArrayList<>();
-        values.add(4);
-        values.add(5);
-        values.add(6);
+        Collection<Integer> numbers = new ArrayList<>();
+        numbers.add(10);
+        numbers.add(4); // Integer v = new Integer();
+        numbers.add(5);
+        numbers.add(6);
 
-        System.out.println("Collection =" + values);
+//        System.out.println("Collection =" + numbers);
 
         //Collection can't fetch data with index number . so we need to do
 
-        Iterator it = values.iterator();
+
+        Iterator it = numbers.iterator();
 
         while (it.hasNext()) {
-            //hasNext() method will check the next element existence
+//            hasNext() method will check the next element existence
             System.out.println("while Iterator = " + it.next());
         }
 
+        List<Integer> numbers2 = new ArrayList<>(); // mutable
+        numbers2.add(10);
+        numbers2.add(4);
+        numbers2.add(5);
+        numbers2.add(7);
+        Iterator<Integer> it2 = numbers2.iterator();
+        while (it2.hasNext()) {
+            System.out.println("Iterator after Iterator = " + it2.next());
+        }
+
+        Set<Integer> number3 = new HashSet<>();
+
+        number3.add(8);
+        number3.add(4);
+        number3.add(5);
+        number3.add(7);
+
+        Iterator<Integer> it3 = number3.iterator();
+
+        while (it3.hasNext()) {
+            System.out.println("Iterator after Iterator 3 = " + it3.next());
+        }
+
+        for (int i = 0; i < numbers.size(); i++) {
+            System.out.println("i for loop = " + i);
+        }
+
+        Collections.sort(numbers2); // sort class
+        Collections.reverse(numbers2);
+        Collections.shuffle(numbers2);
+        for (Number o : numbers2) {
+
+            System.out.println("enhance for loop = " + o);
+
+        }
+        // Map<Integer, String> map = new HashMap<>();
+//        Set<Integer> map = new TreeSet<>();
     }
 
 
