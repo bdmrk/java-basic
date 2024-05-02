@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 // whatever come with the help of IO it becomes Resources
 // IOException is not a part of Runtime Exception
-//Subclass of Runtime Exception are unchecked
+// Subclass of Runtime Exception are unchecked
 // Remaining all the Exceptions are checked exception
 
 public class CheckedException {
@@ -18,12 +18,11 @@ public class CheckedException {
             //Create Resource in Try Block
             bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             n = Integer.parseInt(bufferedReader.readLine());
-        }catch (Exception e) {
+        } catch (Exception e) {
             //Handle Resource in Catch Block
             System.err.println(e);
 
-        }
-        finally {
+        } finally {
             //Close Resource in Finally block
             bufferedReader.close(); // it's our responsibility to close the job
         }
