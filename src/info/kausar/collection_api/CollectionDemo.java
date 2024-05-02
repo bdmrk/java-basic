@@ -6,6 +6,7 @@ package info.kausar.collection_api;
 
 import info.kausar.oops.Object;
 
+import javax.swing.text.TabableView;
 import java.util.*;
 
 public class CollectionDemo {
@@ -26,7 +27,7 @@ public class CollectionDemo {
 
         while (it.hasNext()) {
 //            hasNext() method will check the next element existence
-            System.out.println("while Iterator = " + it.next());
+            System.out.println("while Iterator Collection = " + it.next());
         }
 
         List<Integer> numbers2 = new ArrayList<>(); // mutable
@@ -36,7 +37,7 @@ public class CollectionDemo {
         numbers2.add(7);
         Iterator<Integer> it2 = numbers2.iterator();
         while (it2.hasNext()) {
-            System.out.println("Iterator after Iterator = " + it2.next());
+            System.out.println("Iterator after List = " + it2.next());
         }
 
         Set<Integer> number3 = new HashSet<>();
@@ -49,7 +50,7 @@ public class CollectionDemo {
         Iterator<Integer> it3 = number3.iterator();
 
         while (it3.hasNext()) {
-            System.out.println("Iterator after Iterator 3 = " + it3.next());
+            System.out.println("Iterator after has set 3 = " + it3.next());
         }
 
         for (int i = 0; i < numbers.size(); i++) {
@@ -64,8 +65,31 @@ public class CollectionDemo {
             System.out.println("enhance for loop = " + o);
 
         }
-        // Map<Integer, String> map = new HashMap<>();
-//        Set<Integer> map = new TreeSet<>();
+        Set<Integer> treeSet = new TreeSet<>(); // return the nearest value from heap memory in using some algo
+
+        treeSet.add(10);
+        treeSet.add(9);
+        treeSet.add(8);
+        treeSet.add(12);
+        treeSet.add(14);
+        for (Integer i : treeSet) {
+            System.out.println(" tree set i : " + i);
+        }
+
+        Map<String, Integer> hasMap = new HashMap<>();
+        hasMap.put("name", 1);
+        hasMap.put("name2", 2);
+        hasMap.put("name3", 3);
+
+        Set<String> keys = hasMap.keySet();
+
+        for (String key : keys) {
+
+            System.out.println(key + " hasMap with set collection:  " + hasMap.get(key));
+
+        }
+
+        Map<String, Integer> mapTable = new Hashtable<>();
     }
 
 
