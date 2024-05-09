@@ -3,12 +3,14 @@ package info.kausar.oops.abstraction;
 // we don't need anyone to create object of abstract class
 // instead of creating multiple method we can create single method by using Supper class references for every result
 
-abstract class Human //when you create an abstract class you can't create an object of it
+abstract class Human
+//when you create an abstract class you can't create an object of it
 {
-    public abstract void eat(); // to declare method it's type should be abstract //abstract method created only in abstract class
+    public abstract void eat();
+    // to declare method it's type should be abstract
+    // abstract method created only in abstract class
 
-    public void walk() {
-    }
+    public void walk() {}
 
 }
 
@@ -35,5 +37,6 @@ public class Abstract {
         obj.eat();
         Human obj2 = new woman();
         obj2.eat();
+        obj.walk();
     }
 }

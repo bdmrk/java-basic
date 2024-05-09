@@ -1,16 +1,17 @@
 package info.kausar.oops.interfaces;
+
 // Abstract Class =>
 // abstract class is extended
 // can define method
-// doesn't support multiple inheritance
-// fast
+// java doesn't support multiple inheritance
+// abstract class is fast
 
 //Interface Class =>
 // interface is implemented
 // can't define method
 // all the method by default public abstract
 // support multiple implements
-// slow
+// interface is slow
 // can't create object of interface only references
 // interface doesn't have any constructor
 // use Interface only for multiple implementation
@@ -21,7 +22,8 @@ package info.kausar.oops.interfaces;
 //}
 
 interface Writer {
-    void write(); //only can declare method not defining
+    void write();
+    //only can declare method not defining
     //public and abstract is assumed no need to declare here
 }
 
@@ -46,9 +48,11 @@ class Kit {
 
 public class Interface {
     public static void main(String[] args) {
-;        Kit k = new Kit();
+
+        Kit k = new Kit();
         Pen p = new Pen();
         Pencil pc = new Pencil();
         k.doSomething(p);
+        pc.write();
     }
 }

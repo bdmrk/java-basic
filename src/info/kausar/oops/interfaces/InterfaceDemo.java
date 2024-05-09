@@ -4,8 +4,9 @@ package info.kausar.oops.interfaces;
 
 
 @FunctionalInterface
-interface Demo {
+interface FunctionalDemo {
     void show(); //declare abstract method
+
     default void showMe() {
         System.out.println("define method");
     }
@@ -13,7 +14,7 @@ interface Demo {
 }
 
 
-class DemoImp implements Demo {
+class DemoImp implements FunctionalDemo {
 
     @Override
     public void show() {
@@ -25,7 +26,7 @@ class DemoImp implements Demo {
         System.out.println("demoImp showMe");
     }
 
-    public void abcImp () {
+    public void abcImp() {
         System.out.println("in abc imp");
     }
 
@@ -33,11 +34,11 @@ class DemoImp implements Demo {
 
 public class InterfaceDemo {
     public static void main(String[] args) {
-      Demo obj = new DemoImp() ;
-      DemoImp objImp = new DemoImp();
-    obj.show();
-    obj.showMe();
-    objImp.abcImp(); // can access class method with its own obj
+        FunctionalDemo obj = new DemoImp();
+        DemoImp objImp = new DemoImp();
+        obj.show();
+        obj.showMe();
+        objImp.abcImp(); // can access class method with its own obj
 
 
     }
