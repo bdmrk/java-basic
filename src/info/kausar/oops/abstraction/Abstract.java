@@ -23,7 +23,6 @@ class Man extends Human {
 }
 
 class woman extends Human {
-
     @Override
     public void eat() {
         System.out.println("Dieting");
