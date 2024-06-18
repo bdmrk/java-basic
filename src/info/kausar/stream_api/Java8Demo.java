@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Java8Demo {
     public static void main(String[] args) {
+
+        // External Iterations
         List<Integer> values = Arrays.asList(1, 2, 3, 4, 5, 6);
         for (int i = 0; i < values.size(); i++) {
             System.out.println("Data with for loop=> " + values.get(i));
@@ -20,7 +22,9 @@ public class Java8Demo {
             System.out.println("Data with enhance For Loop =>" + k);
         }
 
-        // External Iterations
+
         // Internal Iteration
+
+        values.forEach(i -> System.out.println("Data with forEach loop and lambda =>" + i));
     }
 }
