@@ -11,3 +11,7 @@
    # Declarative Programming
 
 # Third Rule of Java -> class has more priority than interface
+# SAM -> Single Abstract Method in Interface
+
+# Intermediate and terminate method
+# stream once use can't be reused? -> need to know
