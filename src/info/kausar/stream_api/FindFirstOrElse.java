@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FindFirstOrElse {
     public static void main(String[] args) {
-        List<Integer> values = Arrays.asList(1, 2, 3, 4, 34, 30);
+        List<Integer> values = Arrays.asList(99, 2, 3, 4, 21, 24, 356, 68, 100);
         int result = 0;
 
         for (int i : values) {
@@ -13,13 +13,16 @@ public class FindFirstOrElse {
                 result = i * 2;
             }
         }
-        System.out.println("Slow Process than stream Result: " + result);
+
+        System.out.println("For Loop is Slow Process than stream Result: " + result);
+
 
 //        System.out.println(values.stream()
 //                .filter(i -> i % 5 == 0)
 //                .map(i -> i * 2)
 //                .findFirst() // Terminal Function
 //                .orElse(0));
+
 
         // Method Reference to prove stream is fast
         System.out.println(values.stream()
@@ -29,7 +32,7 @@ public class FindFirstOrElse {
     }
 
     private static boolean isDivisible(int i) {
-        System.out.println("int i" + i);
+        System.out.println("int i=  " + i);
         return i % 5 == 0;
     }
 
